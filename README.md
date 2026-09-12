@@ -148,32 +148,6 @@ implementation.
 
 ---
 
-## Recommendation Approach
-
-After candidate facilities are identified, they can be ranked
-according to their utilization and suitability score.
-
-A Max Heap / Priority Queue can then be used to efficiently obtain
-the highest-priority facilities.
-
-Example:
-
-Facility A → Score 92
-Facility B → Score 87
-Facility C → Score 81
-Facility D → Score 76
-
-                 Max Heap
-                    92
-                  /    \
-                87      81
-               /
-             76
-
-Top-K facilities can then be recommended to the citizen.
-
----
-
 ## Literature Review
 
 The initial research covered relevant work related to smart city
@@ -297,27 +271,3 @@ resource planning.
 
 **Overall Progress:** 25%
 
-The current stage focuses on problem understanding, requirement
-analysis, DSA-II Units 1 and 2, literature review and preliminary
-conceptual planning.
-
-Implementation will be carried out in subsequent review stages.
-
----
-
-## SDG
-
-### SDG 11 – Sustainable Cities and Communities
-
-The project supports the idea of making public facilities more
-efficiently utilized and improving resource planning within cities.
-
----
-
-## Author
-
-**Abhinav Kumar Jha**
-
-B.Tech CSE-A
-
-Data Structure and Algorithms - II
